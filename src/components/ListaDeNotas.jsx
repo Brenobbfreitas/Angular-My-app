@@ -12,7 +12,8 @@ class ListaDeNotas extends Component {
                <CardNota />
           </li>
           );
-        })}
+        })} 
+        {/* tudo dentro das chaves {} é javaScript */}
       </ul>
     );
   }
