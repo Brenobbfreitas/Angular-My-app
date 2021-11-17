@@ -7,6 +7,8 @@ class FormularioCadastro extends Component {
     this.titulo = "";
     this.texto = "";
   }
+  // para salvar a mudança usamos o construtor this.titulo, this.texto
+
 
   _handleMudancaTitulo(evento){
     evento.stopPropagation();

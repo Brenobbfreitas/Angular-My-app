@@ -7,7 +7,7 @@ class App extends Component {
 
     constructor(){
       super();
-
+      //tem que chamar o super que é o construtor da classe pai(component).
       this.state = {
         notas:[]
       }
